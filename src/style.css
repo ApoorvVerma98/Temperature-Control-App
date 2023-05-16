@@ -23,8 +23,8 @@ h1 {
 }
 
 .temperature-controls button {
-  background-color: #0a0a0a;
-  color: #ffff;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
   font-size: 16px;
   font-weight: bold;
   padding: 10px 20px;
@@ -36,7 +36,7 @@ h1 {
 }
 
 .temperature-controls button:hover {
-  background-color: rgb(68, 85, 231);
+  background: linear-gradient(to right, #2575fc, #6a11cb);
 }
 
 .container {
