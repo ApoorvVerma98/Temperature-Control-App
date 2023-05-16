@@ -1,0 +1,52 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.temperature-display {
+  margin-bottom: 20px;
+}
+
+.temperature-display h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.temperature-controls button {
+  background-color: #0a0a0a;
+  color: #ffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.temperature-controls button:hover {
+  background-color: rgb(68, 85, 231);
+}
+
+.container {
+  background-color: yellow;
+}
+
+.container.orange {
+  background-color: orange;
+}
+
+.container.red {
+  background-color: red;
+}
